@@ -33,18 +33,22 @@ To simulate a network with topology using Cisco Packet Tracer and verify connect
 
 ## 📊 IP CONNECTIVITY TABLE
 
+The following table represents the connectivity between the PCs using ICMP Ping.
+
 | SENDER/RECEIVER | PC0 | PC1 | PC2 | PC3 | PC4 | PC5 |
 |------------------|-----|-----|-----|-----|-----|-----|
-| PC0              |     |     |     |     |     |     |
-| PC1              |     |     |     |     |     |     |
-| PC2              |     |     |     |     |     |     |
-| PC3              |     |     |     |     |     |     |
-| PC4              |     |     |     |     |     |     |
-| PC5              |     |     |     |     |     |     |
+| PC0              |  —   |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |
+| PC1              |  ✓   |  —   |  ✓   |  ✓   |  ✓   |  ✓   |
+| PC2              |  ✓   | ✓    |  —   |  ✓   |  ✓   |  ✓   |
+| PC3              |  ✓   | ✓    |  ✓   |  —   |  ✓   | ✓    |
+| PC4              |  ✓   | ✓    | ✓    |  ✓   |  —   |   ✓  |
+| PC5              |  ✓   | ✓    |  ✓   |  ✓   |   ✓  |   —  |
+
+**✓ — Successful ICMP connectivity**
 
 ## 🗺️ NETWORK DIAGRAM
 ---
-<img width="1024" height="326" alt="image" src="https://github.com/user-attachments/assets/b1678fb3-30c2-4351-9b61-ee7b524be458" />
+<img width="1920" height="1080" alt="1st exp image " src="https://github.com/user-attachments/assets/bdd7803f-e59f-4a80-a051-6bfd761e05e1" />
 
 
 ## 🧾 BASIC NETWORKING COMMANDS
@@ -73,7 +77,7 @@ C:\> ipconfig /all
 
 ## OUTPUT
 ---
-<img width="1088" height="796" alt="image" src="https://github.com/user-attachments/assets/39cc071d-feae-4f5e-b8a6-f2b7a155daf0" />
+<img width="1920" height="1080" alt="1 st exp prompt " src="https://github.com/user-attachments/assets/f3e73346-c9b3-4e8b-8284-fb5f9fd9972e" />
 
 ## RESULT
 Thus the computers in same network are able to communicate with each other and the communication between them were verified
