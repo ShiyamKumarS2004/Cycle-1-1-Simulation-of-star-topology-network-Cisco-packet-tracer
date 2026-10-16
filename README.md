@@ -1,6 +1,7 @@
 # Cycle-1-----1-Simulation-of-star-topology-network
 # 🖧 Network Simulation using Cisco Packet Tracer
-
+# NAME : SHIYAM KUMAR S
+# REG NO : 212223060260
 ## 🎯 AIM
 To simulate a network with topology using Cisco Packet Tracer and verify connectivity between computers using ICMP.
 
@@ -57,7 +58,7 @@ The following table represents the connectivity between the PCs using ICMP Ping.
 ## IP Configuration Details: 
 ## (i)	ipconfig Command(windows OS) (or) ifconfig command(Linux OS) Syntax: C:\> ipconfig 
 ## (ii)	ipconfig/all Command:
-## Syntax:
+## Syntax: 
 C:\> ipconfig /all 
 ## Testing Connectivity: 
 ## (i)	Self Ping Command:
